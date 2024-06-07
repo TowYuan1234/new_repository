@@ -7,6 +7,6 @@ int main(void){
 
 
 	printf("test code\n");
-	printf("test1\n");
+	printf("删除\n");
 	return 0;
 }
