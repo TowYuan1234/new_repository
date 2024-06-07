@@ -18,6 +18,7 @@ Markdown文本修饰语言，用特殊符号修饰正文效果<br>
   ***测试文本***
   ~~测试文本~~
 
+`关键字`重点显示
 ##分割线
 
   用\-\-\-表示分割线
@@ -52,7 +53,32 @@ Markdown文本修饰语言，用特殊符号修饰正文效果<br>
    * 测试二级
      2. 测试三级
 
+### 表格
+名称|技能|排行
+--|:--:|--:
+蝙蝠侠|有钱|32
+海王|游泳|16
+闪电侠|跑|18
 
+### 代码片段
+```c
+       #include<stdio.h>
+       int main(void){
+          printf("test code\n");
+	  return 0;
+	}
+```
 
+```cpp
+	#include<iostream>
+```
 
-
+```python
+	import <os>
+```
+```bash
+	echo"测试"
+	pwd
+	ps aux
+	ls -l
+```
